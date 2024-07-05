@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Third Document</title>
+</head>
+<body>
+    <form>
+        UserName: <input type="text"> <br>    <!--Input tag: Self-closing -->
+        Password: <input type="password">
+    </form>
+    <form>
+        UserName: <input type="text" placeholder="email"> <br>    <!-- Placeholder: Hint about text -->
+        Password: <input type="password">
+    </form>
+    <form action="/contact-me">
+        UserName: <input type="text" placeholder="email" required> <br> <!-- Required: Star marked, becomes red when not filled -->
+        Password: <input type="password"> <br>
+        <input type="submit">    <!-- Action attribute -->
+    </form>
+    <form>
+        Password: <input type="password" name="password">     <!-- 'name' Property -->
+        Password: <input type="password" value="password">    <!-- 'value' Property -->
+    </form>
+    <form action="/contact-me">     <!-- Use of label tag -->
+        <label for="email">UserName</label>
+        <input type="text" id="email" placeholder="email" required="true">
+        <label for="user_password">Password</label>
+        <input type="user_password" type="password"> <br>
+        <input type="Submit">
+    </form>
+    <form>
+        Date: <input type="date">   <!-- Input type: Date -->
+    </form>
+    <form>
+        File: <input type="file">   <!-- Input type: File-->
+    </form>
+    <form>
+        Color: <input type="color"> <!-- Input type: Color -->
+    </form>
+    <form>
+        Range: <input type="range"> <!-- Input type: Range -->
+    </form>
+    <form>
+        Button: <input type="button" value="Click me"> <!-- Input type: Button -->
+    </form>
+    <form>
+        Submit: <input type="submit"> <!-- Input type: Submit -->
+    </form>
+    
+
+
+</body>
+</html>
